@@ -1,0 +1,16 @@
+begin
+dbms_output.put_line('MI PRIMER PROGRAMADE PL SQL');
+end;
+/
+
+PROGRAMA 2
+
+declare
+nombre varchar2(80);
+edad integer;
+begin
+nombre:='luis daniel';
+edad:=22;
+dbms_output.put_line('hola' || nombre || ' tu edad es ' || edad);
+end;
+/
